@@ -1,6 +1,24 @@
+[rust]
+edition = "2021" #在线运行用2021版本的
+
 [book]
 authors = ["MoXiang"]
-language = "en"
+language = "zh=CN"
 multilingual = false
 src = "src"
-title = "Android Course"
+title = "Android知识梳理(Android Course)"
+
+[output.html]
+additional-css = ["theme/style.css"]
+additional-js = ["assets/custom.js", "assets/bigPicture.js"]
+git-repository-url = "https://github.com/sunface/rust-course"
+edit-url-template = "https://github.com/sunface/rust-course/edit/main/{path}"
+
+[output.html.playground]
+editable = true
+copy-js = true
+# line-numbers = true
+
+[output.html.fold]
+enable = true
+level = 0
