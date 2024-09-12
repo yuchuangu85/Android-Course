@@ -35,6 +35,10 @@ jobs:
         uses: peaceiris/actions-mdbook@v2
         with:
           mdbook-version: "latest"
+      - name: List assets folder
+        run: ls -la /home/runner/work/Android-Course/
+        run: ls -la /home/runner/work/Android-Course/Android-Course
+        run: ls -la /home/runner/work/Android-Course/Android-Course/assets
       - run: mdbook build
 #      - name: Copy Assets
 #        run: |
