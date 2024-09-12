@@ -1,0 +1,6 @@
+[book]
+authors = ["MoXiang"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Android Course"
