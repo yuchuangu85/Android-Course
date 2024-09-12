@@ -36,9 +36,10 @@ jobs:
         with:
           mdbook-version: "latest"
       - name: List assets folder
-        run: ls -la /home/runner/work/Android-Course/
-        run: ls -la /home/runner/work/Android-Course/Android-Course
-        run: ls -la /home/runner/work/Android-Course/Android-Course/assets
+        run: |
+          ls -la /home/runner/work/Android-Course/
+          ls -la /home/runner/work/Android-Course/Android-Course
+          ls -la /home/runner/work/Android-Course/Android-Course/assets
       - run: mdbook build
 #      - name: Copy Assets
 #        run: |
