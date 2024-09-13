@@ -6,7 +6,7 @@ authors = ["MoXiang"]
 language = "zh=CN"
 multilingual = false
 src = "src"
-title = "Android知识梳理(Android Course)"
+title = "Android知识总结(Android Course)"
 
 [output.html]
 additional-css = ["theme/style.css"]
