@@ -11,8 +11,8 @@ title = "Android知识梳理(Android Course)"
 [output.html]
 additional-css = ["theme/style.css"]
 # additional-js = ["assets/custom.js", "assets/bigPicture.js"]
-git-repository-url = "https://github.com/sunface/rust-course"
-edit-url-template = "https://github.com/sunface/rust-course/edit/main/{path}"
+git-repository-url = "https://github.com/yuchuangu85/Android-Course"
+edit-url-template = "https://github.com/yuchuangu85/Android-Course/edit/main/{path}"
 
 [output.html.playground]
 editable = true
