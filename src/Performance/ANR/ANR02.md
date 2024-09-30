@@ -1,9 +1,4 @@
----
-title: ANR-分析之基础知识介绍：trace信息
-date: 2024-08-19 22:58:58
-tags: ANR
-categories: [ANR]
----
+# ANR-分析之基础知识介绍：trace信息
 
 
 
